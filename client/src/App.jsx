@@ -411,7 +411,7 @@ if (view === "inbox") {
       onClick={() => setActiveItem(item._id)}
       className="px-3 py-1 bg-blue-600 text-white rounded"
     >
-      I Found This
+      {item.status === "lost" ? "I found this" : "I lost this"}
     </button>
   </div>
 )}
@@ -472,7 +472,7 @@ if (view === "inbox") {
   </div>
 )}
  
- 
+
       <div className="flex justify-center gap-4 mt-10">
   <button
     disabled={page === 1}
