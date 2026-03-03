@@ -411,7 +411,7 @@ if (view === "inbox") {
       onClick={() => setActiveItem(item._id)}
       className="px-3 py-1 bg-blue-600 text-white rounded"
     >
-      {item.status === "lost" ? "I found this" : "I lost this"}
+      {item.status === "lost" && item.status!=="returned" ? "I found this" : "I lost this"}
     </button>
   </div>
 )}
