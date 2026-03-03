@@ -9,8 +9,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: ["http://localhost:5173","https://lostnfound.vercel.app"],
-  credentials: true
+  origin:*,
 }));
 
 // Middleware
