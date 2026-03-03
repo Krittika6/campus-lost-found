@@ -9,7 +9,8 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin:*,
+  origin:"https://campus-lost-found-brown.vercel.app",
+  credentials: true
 }));
 
 // Middleware
