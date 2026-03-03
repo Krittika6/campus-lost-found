@@ -450,7 +450,7 @@ if (view === "inbox") {
         value={messageText}
         onChange={(e) => setMessageText(e.target.value)}
         className="w-full p-2 rounded bg-gray-100 dark:bg-gray-800"
-        placeholder= {item.status === "lost" ? "Where did you find it? Please mention contact details as well":"Where did you lose it? Please mention contact details as well"}
+        placeholder="Where did you find/lose it? Please mention contact details as well"
       />
 
       <div className="flex justify-end gap-2 mt-4">
