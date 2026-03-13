@@ -2,8 +2,7 @@
 
 A full-stack MERN web application that allows students to report lost/found items and securely communicate with item owners.
 
-🌐 **Live Frontend:** https://your-vercel-url.vercel.app  
-🖥 **Backend API:** https://your-render-url.onrender.com  
+🌐 **Live Frontend:** https://campus-lost-found-brown.vercel.app/ 
 
 ---
 
